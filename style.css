@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Coming Soon', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oldenburg', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid red;
+    background-color: rgb(179, 174, 174);
+}
+
+.annons {
+    background-color: white;
+    height: 50rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+img {
+    height: 100%;
+    width:100%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Justify-content: center;
+
+}
+h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight:lighter;
+    margin-right: 4.7rem;
+}
+
+p {
+    padding: 3rem;
+}
+
+.pris {
+    font-size: 2rem;
+    font-weight:1000;
+    margin-left: 11rem;
+}
